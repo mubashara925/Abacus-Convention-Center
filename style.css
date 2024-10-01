@@ -1,0 +1,250 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#navbarSection{
+    background-color: rgb(120, 117, 117);
+    padding: 10px 10px;
+}
+.MainDiv{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 0px 40px;
+
+}
+.listDiv{
+    display: flex;
+    align-items: center;
+    gap: 20vh;
+}
+.maindivh1{
+    font-size: 25px;
+    color:white;
+}
+.listDiv>a{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+/* banner css  */
+
+
+#bannerSection{
+    background-image: url(./img/banner.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding-top:20px ;
+}
+.bannerTextDiv>h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(200, 198, 198);
+
+}
+.bannerMainDiv{
+    padding-top:20vh ;
+   text-align: center;
+
+    
+
+}
+.bannerTextDiv>h4{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(200, 198, 198);
+     font-size: 20px;
+
+}
+.bannerbutton>button{
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(18, 83, 182);
+   background-color: rgb(200, 198, 198);
+    
+}
+/* about css ////////////////////// */
+
+#aboutSection{
+    background-color: darkgray;
+    padding-bottom: 20vh;
+}
+.aboutDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vh;
+    padding-top: 20vh;
+}
+.aboutTextDiv>h1{
+    font-size: 40px;
+
+}
+.aboutTextDiv>a{
+    font-size: 20px;
+    text-align: center;
+}
+.aboutButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    background-color: rgb(55, 55, 224);
+    padding: 10px 20px;
+    border: none;
+    color: azure;
+    font-size: 15px;
+    border-radius: 4px;
+}
+.aboutbtn{
+    padding-top: 3vh;
+}
+
+/* our package css  */
+
+.ourSection>h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+}
+.ourSectionDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10vh;
+    padding-top: 40px;
+   
+}
+
+.package{
+    color: rgb(35, 35, 226);
+}
+.pageTextDiv{
+    background-color: rgb(172, 169, 230);
+    width: 40vh;
+    text-align: center;
+    padding-bottom: 20px;
+    border-style: inset;
+    border-radius: 10px;
+   box-shadow: 3px 3px 5px 5px rgb(146, 150, 150);
+
+}
+.ourpackagebtn{
+   padding-left:43px ;
+   padding-top: 10px;
+}
+
+.pageTextDiv1>h1{
+    font-size: 35px;
+    
+}
+
+.ourpackagebtn>button{
+    border: none;
+    background-color: rgb(172, 169, 230);
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.choosebtn{
+    padding: 10px 45px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    
+}
+/* happy client css / */
+#happyclientSection>h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 18vh;
+    color:rgb(26, 87, 184) ;
+    
+    
+
+}
+
+
+#happyclientSection{
+    padding-bottom: 18vh;
+    background-color: darkgrey;
+    
+}
+.TextDiv{
+    background-color: rgb(226, 231, 231);
+    padding: 30px 30px;
+    box-shadow: 1px 1px 3px 3px rgb(146, 150, 150);
+    border-style: ridge;
+    border-radius: 20px;
+}
+
+.happyMainDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15vh;
+}
+.TextDiv>h3{
+    font-size: 22px;
+    color: rgb(120, 102, 102);
+}
+
+
+.TextDiv>img{
+    width: 80px;
+  padding-left: 18vh;
+
+}
+.TextDiv>h4{
+    padding-left: 16vh;
+    font-size: 25px;
+}
+.TextDiv>a{
+    padding-left: 20vh;
+}
+
+
+/* planning css  */
+
+.planningMainDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vh;
+    padding-top: 18vh;
+}
+
+.planningTextDiv>h1{
+    font-size: 40px;
+
+}
+
+.planningTextDiv>a{
+    font-size: 20px;
+}
+
+/* footer css  */
+#footerSection{
+    padding: 60px 40px;
+    background-color: black;
+    
+}
+
+.footerDiv>a{
+
+    color: azure;
+    padding-left: 80vh;
+}
